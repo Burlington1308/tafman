@@ -104,11 +104,75 @@ html, body {
     color: white;
 }
 
+.slide-container {
+    overflow-x: hidden;
+}
+
+
 .hero-content h1 {
     font-size:  3rem;
     padding-bottom: 2rem;
+    /*Apply the animation*/
+    animation-name: slide-in-left;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
 }
 
 .hero-content p {
     padding-bottom: 2rem;
+    /*Apply the animation*/
+    animation-name: slide-in-right;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
+}
+
+.hero-content button {
+    animation-name: slide-in-top;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
+}
+
+@keyframes slide-in-left {
+    from {
+        /* Start position: 100% of its own width off the left edge*/
+        transform: translateX(-100vw);
+        opacity: 0;
+    }
+
+    to {
+        /*End position: original position*/
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-right {
+    from {
+        /* Start position: 100% of its own width off the right edge*/
+        transform: translateX(100vw);
+        opacity: 0;
+    }
+
+    to {
+        /*End position: original position*/
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-top {
+    from {
+        /* Start position: 100% of its own width off the right edge*/
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+
+    to {
+        /*End position: original position*/
+        transform: translateY(0);
+        opacity: 1;
+    }
 }

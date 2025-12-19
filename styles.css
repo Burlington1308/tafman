@@ -184,13 +184,6 @@ html, body {
     padding-right: 10%;
 }
 
-footer {
-    width: 100%;
-    background: rgba(8, 8, 10, 0.2);
-    min-height: 80px;
-    bottom: 0;
-}
-
 .whatsapp-link {
     position: fixed;
     bottom: 10%;
@@ -248,3 +241,30 @@ footer {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
 }   
+
+footer {
+    width: 100%;
+    background: rgba(8, 8, 10, 0.2);
+    min-height: 80px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-media img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+footer .social-media a:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}

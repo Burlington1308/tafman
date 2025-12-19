@@ -72,11 +72,17 @@ html, body {
 }
 
 .contact {
-    background-color: #ff5733;
+    background-color: #f50505;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .contact:hover {
@@ -85,4 +91,24 @@ html, body {
 
 .contact a:hover {
     text-decoration: none;
+}
+
+.hero-content {
+    height: calc(100% - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #070bf5;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size:  3rem;
+    padding-bottom: 2rem;
+}
+
+.hero-content p {
+    padding-bottom: 2rem;
 }

@@ -32,6 +32,19 @@
     .nav-items a {
         padding: 0.5rem 0;
     }
+
+    .body-item {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .body-item img {
+        height: 1rem;
+        margin-bottom: 0.5rem;
+        width: fit-content;
+    }
 }
 
 @media (max-width: 450px) {

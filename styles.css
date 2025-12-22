@@ -252,15 +252,18 @@ html, body {
 
 .service-cards {
     width: 100%;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .card {
+    flex: ;
     flex-basis: 30%;
     padding: 2vw;
+    padding-bottom: 4vw;
 }
 
 .card h3 {
@@ -272,20 +275,19 @@ p {
     padding-bottom: 2vw;
 }
 
-.card button {
+.card a {
     background-color: #070bf5;
+    color: #fff;
+    text-decoration: none;
+    text-align: center; 
+    display: inline-block;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.card button a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.card button:hover {
+.card a:hover {
     background-color: #4649ee;
 }
 

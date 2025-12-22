@@ -33,3 +33,11 @@
         padding: 0.5rem 0;
     }
 }
+
+@media (max-width: 450px) {
+    .card {
+    flex-basis: 100%;
+    padding: 2vw;
+    padding-bottom: 10vw;
+}
+}

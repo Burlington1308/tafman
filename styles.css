@@ -112,6 +112,8 @@ html, body {
 .hero-content h1 {
     font-size:  3rem;
     padding-bottom: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
     /*Apply the animation*/
     animation-name: slide-in-left;
     animation-duration: 2s;
@@ -121,6 +123,8 @@ html, body {
 
 .hero-content p {
     padding-bottom: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
     /*Apply the animation*/
     animation-name: slide-in-right;
     animation-duration: 3s;

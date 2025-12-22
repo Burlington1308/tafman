@@ -253,14 +253,13 @@ html, body {
 .service-cards {
     width: 100%;
     align-items: stretch;
-    justify-content: space-between;
+    justify-content: ;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
 .card {
-    flex: ;
     flex-basis: 30%;
     padding: 2vw;
     padding-bottom: 4vw;

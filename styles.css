@@ -242,6 +242,19 @@ html, body {
     transition: transform 0.3s ease-in-out;
 }   
 
+.services {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3vh;
+    color: #333;
+}
+
+.services h1 {
+    text-align: center;
+    font-size: clamp(2rem, 3vw, 4rem);
+}
+
 footer {
     width: 100%;
     background: rgba(8, 8, 10, 0.2);

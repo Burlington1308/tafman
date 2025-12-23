@@ -53,4 +53,11 @@
     padding: 2vw;
     padding-bottom: 10vw;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 }

@@ -31,6 +31,23 @@
     border-radius: 2vw;
 }
 
+hr {
+    margin-top: 5vh;
+}
+
+.partition {
+    display: flex;
+    gap: 2rem;
+    background: #333;
+    padding: 2rem;
+    margin-bottom: 5vh;
+}
+
+.partition p {
+    background: #c2c2c2;
+    padding: 1rem;
+}
+
 .why {
     width: 100%;
     background-color: #333;
@@ -66,5 +83,9 @@
         width: 90%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .partition {
+        flex-direction: column;
     }
 }

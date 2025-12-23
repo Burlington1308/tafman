@@ -1,0 +1,70 @@
+.jungle-gym {
+    width: 100%;
+}
+
+.jungle-gym h2, .counters h2 {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.jungle-gym p {
+    text-align: center;
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pictures img {
+    width: 30%;
+    object-fit: contain;
+    border-radius: 2vw;
+}
+
+.why {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 2vw;
+    margin-top: 5vh;
+}
+
+.why h1 {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: clamp(2rem, 5vw, 3rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.why p {
+    background-color: #696969;
+    margin-top: 1rem;
+    border-radius: 3vw;
+    padding: .5rem;
+    text-align: center;
+}
+
+.faqs {
+    margin-top: 0;
+}
+
+@media (max-width: 450px) {
+    .pictures img {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

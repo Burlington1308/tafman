@@ -55,3 +55,25 @@
 .cta:hover {
     background-color: #4649ee;
 }
+
+.materials {
+    background-color: #333;
+    color: #fff;
+    padding: 2vw;
+    margin-bottom: 5vh;
+    border-radius: 2vh;
+}
+
+.materials ul {
+    list-style: none;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.materials ul li {
+    background-color: #696969;
+    margin-top: 1rem;
+    border-radius: 3vw;
+    padding: .5rem;
+}

@@ -12,7 +12,7 @@
     gap: 0.5rem;
 }
 
-.jungle-gym p {
+.jungle-gym p, .counters p {
     text-align: center;
 }
 

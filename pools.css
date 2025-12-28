@@ -50,6 +50,7 @@
     border-radius: 5px;
     cursor: pointer;
     width: fit-content;
+    margin-bottom: 5vh;
 }
 
 .cta:hover {

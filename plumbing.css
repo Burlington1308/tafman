@@ -55,3 +55,7 @@
 .cta:hover {
     background-color: #4649ee;
 }
+
+.faq-item {
+    margin-bottom: 1rem;
+}
